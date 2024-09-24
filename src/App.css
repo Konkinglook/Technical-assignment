@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  
+  background: #1e1d1d;
+  color: #ffff;
+}
+
+.container{
+  width: 1240px;
+  margin:0 auto;
+}
+
+.content-fav h2{
+  margin: 40px 0;
+  text-align: center;
+}
+
+

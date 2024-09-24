@@ -1,0 +1,46 @@
+.container-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  .card-image {
+    text-align: center;
+    position: relative;
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+  .con-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.card-image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.card-image:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  background: rgb(0, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
